@@ -33,8 +33,8 @@ import static org.junit.Assert.*;
  */
 public class ConditionMacroTest extends PageTest
 {
-	private String codeSpace = "ConditionMacroCode";
-	@Before
+    private String codeSpace = "ConditionMacroCode";
+    @Before
     public void initialization() throws Exception
     {
         setOutputSyntax(Syntax.PLAIN_1_0);
@@ -42,11 +42,10 @@ public class ConditionMacroTest extends PageTest
         request.put("xpage", "plain");
     }
 	
-	@Test
+    @Test
     public void currentDocument() throws Exception
     {
-		String content = renderPage(new DocumentReference("xwiki", codeSpace, "Test1"));
-    	//assertTrue(content.equals("ok"));
-    	assertTrue(true);
+	//TODO
+	assertTrue(true);
     }
 }
