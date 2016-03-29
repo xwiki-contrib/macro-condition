@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>macro-condition</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Condition Macro</name>
   <packaging>xar</packaging>
   <description>Allow the content to execute based on whether the user has the permission to do so.</description>
@@ -39,6 +39,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/macro-condition.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-condition.git</developerConnection>
     <url>https://github.com/xwiki-contrib/macro-condition</url>
+    <tag>macro-condition-1.0</tag>
   </scm>
   <developers>
     <developer>
